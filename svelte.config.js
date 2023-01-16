@@ -4,8 +4,8 @@ import adapter from 'svelte-adapter-github';
 export default {
   kit: {
     adapter: adapter({
-      pages: 'build',
-      assets: 'build',
+      pages: 'docs',
+      assets: 'docs',
       precompress: false,
       domain: '',
       jekyll: false
